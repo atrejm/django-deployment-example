@@ -1,0 +1,9 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+
+<div class="Jumbotron display-4">
+    <h1>Special page for only logged in users</h1>
+    <h2>You are {{ user_name }}</h2>
+</div>
+
+{% endblock %}
