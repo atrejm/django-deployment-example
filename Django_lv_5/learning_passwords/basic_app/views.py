@@ -6,6 +6,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 
 # Create your views here.
+# test comment
 def index(request):
     return render(request,"basic_app/index.html")
 
