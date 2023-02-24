@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-%*67q4j3k25)pq+0)=aqu5q(@n@*7hpkkv-l=j5uf++sq&i4v^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["atrej.pythonanywhere.com"]
 
 
 # Application definition
@@ -143,3 +143,5 @@ MEDIA_URL = 'media/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_URL = 'basic_app/user_login'
